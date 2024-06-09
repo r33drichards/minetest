@@ -40,6 +40,7 @@
   services.minetest-server = {
     enable = true;
     port = 8080;
+    gameId = "minetest";
   };
 
   networking.firewall.allowedTCPPorts = [ 8080 ];
